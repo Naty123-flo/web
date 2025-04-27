@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+html,body{
+min-height: 100vh;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+background: rgb(238,244,247);
+background-image: url("RECURSOS/triangles-top.svg"),url("RECURSOS/triangles-bottom.svg");
+background-position: left top,right bottom;
+background-repeat: no-repeat;
+background-size: inherit;
+padding-top: 140px;
+color: #44566C;
+}
+.main-content{
+display: flex;
+max-width: 1400px
+margin: auto;
+}
+.profile{
+width: 280px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 2.5rem 3.125rem rgba(103,118,128,0.1) !important;
+text-align: center;
+padding-top: 1.75rem;
+position:fixed;
+}
+.my-photo{
+border-radius:8px;
+max-height:11.25rem;
+max-width:11.25rem
+height:11.25rem;
+width:11.25rem;
+margin-top:-7rem;
+margin-bottom:1.5625rem;
+margin-left:auto;
+margin-right:auto;
+transition:all .3s ease-in-out;
+}
+.title{
+margin-bottom:0.875rem;
+}
+.badge-profile{
+background-color:#F0F0F6;
+color:
+
+
